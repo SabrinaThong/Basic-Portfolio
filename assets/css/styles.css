@@ -1,0 +1,82 @@
+h1 {
+    background-color: #4aaaa5;
+    font-size: 18pt;
+    width: 150px;
+    font: white;
+}
+body {
+   
+}
+header {
+    height: 100px;
+    width: 960px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+  li {
+      display: inline;
+      padding: 15px;
+      
+  }
+ul {
+    list-style-type: none;
+    
+}
+
+.computer {
+      height: 200px;
+      width: 250px;
+  }
+.soccer {
+    height: 200px;
+    width: 250px;
+}
+.camping {
+    height: 200px;
+    width: 250px;
+}
+.course {
+    height: 200px;
+    width: 250px;
+}
+.travel {
+    height: 200px;
+    width: 250px;
+}
+  footer {
+    position: fixed;
+    bottom:0;
+    text-align: center;
+    background-color: #666666;
+    width: auto;
+  }
+nav { 
+    font-size: 120%;
+    font-weight: bold;
+    float: center; 
+    width: 960px; 
+    height: 30px;
+    text-align: right;
+    padding-left: 10px;
+    }
+
+
+
+p {
+    color: #777777;
+}
+
+img {
+    float: left;
+}
+
+#wrapper 
+    {width: 80%;
+    background-color:#ffffff;
+    width: 960px;
+    box-shadow: 1px 1px 1px #333333;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000033;
+    height: 600px; }
