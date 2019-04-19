@@ -2,16 +2,26 @@ h1 {
     background-color: #4aaaa5;
     font-size: 18pt;
     width: 150px;
-    font: white;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 205px;
+    
 }
 body {
-   
+    background-image: url("https://raw.githubusercontent.com/SabrinaThong/Basic-Portfolio/master/assets/images/interlaced.png");
 }
 header {
     height: 100px;
-    width: 960px;
+    width: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;;
+    border-color: #cccccc;
+    margin-top: auto;
     
+}
+h2 { 
+    color: #4aaaa5;
+    margin-left: 25px;
 }
 
   li {
@@ -23,60 +33,110 @@ ul {
     list-style-type: none;
     
 }
+.about {
+    color: grey;
+}
+.portfolio {
+    color: grey;
+}
+.contact {
+    color: grey;
+}
+nav a {
+    text-decoration: none;
+}
 
-.computer {
-      height: 200px;
-      width: 250px;
-  }
-.soccer {
-    height: 200px;
-    width: 250px;
-}
-.camping {
-    height: 200px;
-    width: 250px;
-}
-.course {
-    height: 200px;
-    width: 250px;
-}
-.travel {
-    height: 200px;
-    width: 250px;
-}
   footer {
     position: fixed;
     bottom:0;
-    text-align: center;
     background-color: #666666;
-    width: auto;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+    color: white;
+    text-align: center;
+
   }
 nav { 
-    font-size: 120%;
+     font-size: 120%;
     font-weight: bold;
     float: center; 
     width: 960px; 
     height: 30px;
     text-align: right;
     padding-left: 10px;
+    border-bottom-color: 1px solid lightgray;
     }
+.travel {
+    height: 200px;
+    width:200px;
+    float: left;
+    margin: 0 1.5%;
+}
+.course {
+    height: 200px;
+    width:200px;
+    float: right;
+    margin: 0 1.5%;
+}
+.computer {
+    height: 200px;
+    width:200px;
+    margin: 0 1.5%;
+}
+.camping {
+    height: 200px;
+    width:200px;
+    margin: 1.5% 0;
 
+}
+.soccer {
+    height: 200px;
+    width:200px;
+    margin: 1.5% 0;
+  
+}
 
 
 p {
     color: #777777;
 }
 
+
 img {
     float: left;
+    padding-right: 10px;
+    margin-left: 25px;
+}
+.container {
+    flex-direction: column;
 }
 
 #wrapper 
     {width: 80%;
     background-color:#ffffff;
     width: 960px;
-    box-shadow: 1px 1px 1px #333333;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #000033;
-    height: 600px; }
+    border: 1px solid lightgrey;
+    height: 500px; }
+input[type=text], select, textarea {
+        width: 95%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        margin-left: 5px;
+      }
+#message {
+    height: 200px;
+}
+.column {
+    margin-left: 25px;
+}
+.container {
+    position: relative;
+    
+}

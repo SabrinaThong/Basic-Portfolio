@@ -8,24 +8,28 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets\css\styles.css"/>
 </head>
 <body>
-    <header>
-        <h1>Sabrina Thong</h1>
+        <header>
+        <nav>
+                <ul>
+                    <li> <a class="about" href="index.html"> About</a></li>
+                    <li> <a class="portfolio" href="portfolio.html"> Portfolio</a></li>
+                    <li> <a class="contact" href="contact.html"> Contact</a></li>
+                </ul>
+            </nav>
+            <h1>Sabrina Thong</h1>
     </header>
-    <div class="topnav">
-    <nav>
-        <ul>
-            <li> <a class="about" href="index.html"> About</a></li>
-            <li> <a class="portfolio" href="portfolio.html"> Portfolio</a></li>
-            <li> <a class="contact" href="contact.html"> Contact</a></li>
-        </ul>
-    </nav>
-    </div>
+
+    <br><br>
+
+    <div id="wrapper">
+
+
 <main>
     <h2>Contact</h2>
 
-    <hr>
-    
-    <div id="Contact">
+    <hr width="95%" color="lightgrey">
+   
+    <div class="column">
         <!-- The label and box html for Name-->
         <label for="name">Name</label>
         <input type="text" id="name" name="name">
@@ -37,6 +41,8 @@
         <input type="text" id="message" name="message">
         <button type="button">Submit</button>
     </div>
+    </div>
+
     <footer>
         Copyright &copy; 
     </footer>
